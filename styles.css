@@ -717,68 +717,35 @@
   .location__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 2rem;
     align-items: start;
   }
   
-  .location__schedule h3,
-  .location__contact h3 {
-    color: var(--primary-red);
-    margin-bottom: var(--mb-3);
-    font-size: var(--fs-h4);
-  }
-  
-  .schedule__list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .schedule__item {
-    background: var(--white);
-    padding: 1.5rem;
-    border-radius: 10px;
+  .location__info {
+    padding: 2rem;
+    background: var(--light-cream);
+    border-radius: 1rem;
     box-shadow: var(--shadow);
-    border-left: 4px solid var(--accent-orange);
-  }
-  
-  .schedule__day {
-    font-weight: 600;
-    color: var(--secondary-red);
-    margin-bottom: 0.5rem;
-  }
-  
-  .schedule__place {
-    color: var(--gray);
-    margin-bottom: 0.25rem;
-  }
-  
-  .schedule__time {
-    font-weight: 500;
-    color: var(--primary-red);
   }
   
   .location__contact {
-    margin-top: 2rem;
+    margin-bottom: var(--mb-4);
   }
   
   .location__contact p {
-    color: var(--gray);
     margin-bottom: var(--mb-2);
-    line-height: 1.6;
+    color: var(--gray);
   }
   
   .contact__info {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 1rem;
   }
   
   .contact__item {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    color: var(--gray);
+    gap: 0.5rem;
   }
   
   .contact__icon {
@@ -940,21 +907,25 @@
     margin-bottom: var(--mb-4);
   }
   
+  .footer__section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
   .footer__logo {
-    height: 60px;
-    width: auto;
+    width: 200px;
     margin-bottom: var(--mb-2);
   }
   
   .footer__description {
-    color: var(--cream);
-    line-height: 1.6;
+    color: var(--gray);
+    margin-bottom: var(--mb-3);
   }
   
   .footer__title {
-    color: var(--white);
-    margin-bottom: var(--mb-2);
     font-size: var(--fs-h4);
+    margin-bottom: var(--mb-3);
+    color: var(--primary-red);
   }
   
   .footer__links {
@@ -964,27 +935,16 @@
   }
   
   .footer__links a {
-    color: var(--cream);
+    color: var(--gray);
     transition: var(--transition);
   }
   
   .footer__links a:hover {
-    color: var(--accent-orange);
-    padding-left: 5px;
-  }
-  
-  .footer__schedule p {
-    color: var(--cream);
-    margin-bottom: 0.25rem;
-  }
-  
-  .footer__note {
-    font-size: var(--fs-small);
-    font-style: italic;
+    color: var(--secondary-red);
   }
   
   .footer__contact p {
-    color: var(--cream);
+    color: var(--gray);
     margin-bottom: 0.5rem;
   }
   
