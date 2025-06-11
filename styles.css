@@ -339,6 +339,22 @@
     transform: scale(1.02);
   }
   
+  .hero__video {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition);
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .hero__video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(147, 29, 22, 0.3);
+  }
+  
   .hero__pattern {
     position: absolute;
     top: 0;
@@ -587,6 +603,17 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--secondary-red);
+  }
+  
+  .pizza__slice {
+    font-size: var(--fs-small);
+    font-weight: 500;
+    color: var(--accent-orange);
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background: rgba(247, 170, 33, 0.1);
+    border-radius: 15px;
+    text-align: center;
   }
   
   .pizzas__cta {
@@ -1011,8 +1038,12 @@
       gap: 2rem;
     }
     
-    .hero__image {
+    .hero__content {
       order: -1;
+    }
+    
+    .hero__image {
+      order: 1;
     }
     
     .timeline::before {
@@ -1108,6 +1139,12 @@
     
     .hero {
       padding: 4rem 0 1rem;
+    }
+    
+    .hero__video {
+      width: 70%;
+      border-radius: 15px;
+      max-height: 300px;
     }
     
     .section__header {

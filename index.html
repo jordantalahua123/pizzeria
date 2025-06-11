@@ -25,10 +25,10 @@
                             <a href="#inicio" class="nav__link">Inicio</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#nosotros" class="nav__link">Nosotros</a>
+                            <a href="#pizzas" class="nav__link">Menú</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#pizzas" class="nav__link">Menú</a>
+                            <a href="#nosotros" class="nav__link">Nosotros</a>
                         </li>
                         <li class="nav__item">
                             <a href="#galeria" class="nav__link">Galería</a>
@@ -71,10 +71,102 @@
                     </div>
                 </div>
                 <div class="hero__image">
-                    <img src="img/logotipo_Mesa de trabajo 1.png" alt="Pizza artesanal Danamarys" class="hero__img">
+                    <video class="hero__video" autoplay muted loop playsinline>
+                        <source src="video/videoPizzeria.mp4" type="video/mp4">
+                        <img src="img/logotipo_Mesa de trabajo 1.png" alt="Pizza artesanal Danamarys" class="hero__img">
+                    </video>
                 </div>
             </div>
             <div class="hero__pattern"></div>
+        </section>
+
+        <!-- Nuestras Pizzas -->
+        <section class="pizzas" id="pizzas">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Nuestras Pizzas Artesanales</h2>
+                    <p class="section__subtitle">100% hechas a mano con amor y dedicación</p>
+                </div>
+
+                <div class="pizzas__grid">
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-margherita.jpg" alt="Pizza Margherita" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Margherita Clásica</h3>
+                            <p class="pizza__description">Salsa de tomate casera, mozzarella fresca, albahaca y aceite de oliva extra virgen</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-pepperoni.jpg" alt="Pizza Pepperoni" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Pepperoni Especial</h3>
+                            <p class="pizza__description">Abundante pepperoni, mozzarella premium y nuestra salsa secreta de la casa</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-hawaiana.jpg" alt="Pizza Hawaiana" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Hawaiana Tropical</h3>
+                            <p class="pizza__description">Jamón ahumado, piña fresca, mozzarella y un toque de orégano</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-cuatro-quesos.jpg" alt="Pizza Cuatro Quesos" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Jamón Especial</h3>
+                            <p class="pizza__description">Jamón de calidad, mozzarella fresca y salsa de tomate artesanal</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-vegetariana.jpg" alt="Pizza Vegetariana" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Salami Tradicional</h3>
+                            <p class="pizza__description">Salami premium, mozzarella derretida y salsa de tomate casera</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+
+                    <div class="pizza__card">
+                        <div class="pizza__image">
+                            <img src="img/pizza-especial.jpg" alt="Pizza Especial de la Casa" class="pizza__img">
+                        </div>
+                        <div class="pizza__content">
+                            <h3 class="pizza__name">Especial Danamarys</h3>
+                            <p class="pizza__description">Nuestra receta secreta con los mejores ingredientes locales</p>
+                            <div class="pizza__price">Gran Familiar 12 pedazos - $12.00</div>
+                            <div class="pizza__slice">Por pedazo - $1.00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pizzas__cta">
+                    <p class="pizzas__note">🍕 Todos nuestros precios incluyen masa artesanal hecha el mismo día</p>
+                    <a href="#" class="btn btn--primary" id="menu-order-btn">Ver Menú Completo</a>
+                </div>
+            </div>
         </section>
 
         <!-- Sobre Nosotros -->
@@ -158,89 +250,6 @@
                             <p>Dedicación total con cada cliente y cada pizza que preparamos</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Nuestras Pizzas -->
-        <section class="pizzas" id="pizzas">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Nuestras Pizzas Artesanales</h2>
-                    <p class="section__subtitle">100% hechas a mano con amor y dedicación</p>
-                </div>
-
-                <div class="pizzas__grid">
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-margherita.jpg" alt="Pizza Margherita" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Margherita Clásica</h3>
-                            <p class="pizza__description">Salsa de tomate casera, mozzarella fresca, albahaca y aceite de oliva extra virgen</p>
-                            <div class="pizza__price">$8.50</div>
-                        </div>
-                    </div>
-
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-pepperoni.jpg" alt="Pizza Pepperoni" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Pepperoni Especial</h3>
-                            <p class="pizza__description">Abundante pepperoni, mozzarella premium y nuestra salsa secreta de la casa</p>
-                            <div class="pizza__price">$9.75</div>
-                        </div>
-                    </div>
-
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-hawaiana.jpg" alt="Pizza Hawaiana" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Hawaiana Tropical</h3>
-                            <p class="pizza__description">Jamón ahumado, piña fresca, mozzarella y un toque de orégano</p>
-                            <div class="pizza__price">$9.25</div>
-                        </div>
-                    </div>
-
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-cuatro-quesos.jpg" alt="Pizza Cuatro Quesos" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Cuatro Quesos</h3>
-                            <p class="pizza__description">Mozzarella, parmesano, gorgonzola y queso de cabra sobre base blanca</p>
-                            <div class="pizza__price">$11.50</div>
-                        </div>
-                    </div>
-
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-vegetariana.jpg" alt="Pizza Vegetariana" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Vegetariana del Huerto</h3>
-                            <p class="pizza__description">Pimientos, champiñones, cebolla, tomate cherry y aceitunas</p>
-                            <div class="pizza__price">$10.25</div>
-                        </div>
-                    </div>
-
-                    <div class="pizza__card">
-                        <div class="pizza__image">
-                            <img src="img/pizza-especial.jpg" alt="Pizza Especial de la Casa" class="pizza__img">
-                        </div>
-                        <div class="pizza__content">
-                            <h3 class="pizza__name">Especial Danamarys</h3>
-                            <p class="pizza__description">Nuestra receta secreta con los mejores ingredientes locales</p>
-                            <div class="pizza__price">$12.75</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pizzas__cta">
-                    <p class="pizzas__note">🍕 Todos nuestros precios incluyen masa artesanal hecha el mismo día</p>
-                    <a href="#" class="btn btn--primary" id="menu-order-btn">Ver Menú Completo</a>
                 </div>
             </div>
         </section>
